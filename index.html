@@ -1,0 +1,72 @@
+<html manifest="offlineCache.manifest">
+<head>
+<title>PS4 Jailbreak</title>
+<meta charset="utf-8"/>
+<style>
+.button {
+  background-color: #003263;  
+  border-radius: 5px;
+  color: white;
+  padding: .5em;
+  text-decoration: none;
+  height:100%;
+  display:inline-table;
+  font-family: system-ui;
+}
+
+.button:focus,
+.button:hover {
+  background-color: #007bff;
+  color: White;
+}
+
+.titlehead {
+  background-color: #003263;  
+  border-radius: 5px;
+  color: white;
+  padding: .5em;
+  text-decoration: none;
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  font-family: system-ui;
+}
+
+.titlehead:focus,
+.titlehead:hover {
+  background-color: #007bff;
+  color: White;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("ps4.jpg");
+
+  
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style></head>
+<body class="bg">
+<script>
+	if (localStorage.truefirm == null) {
+		if(navigator.userAgent.indexOf("6.72")>=0){localStorage.truefirm="index672.html";window.location.href="index672.html";}else if(navigator.userAgent.indexOf("7.0")>=0){localStorage.truefirm="index702.html";window.location.href = "index702.html";}
+	}else{
+		window.location.href = localStorage.truefirm;
+	}
+</script>
+<h1 id="progress" class="titlehead">PS4 Jailbreak</h1><hr><br>
+<div>
+<table align="center" style="width:600px;margin-top:30px;">
+<tr>
+<td align="center" colspan="2" >
+<a href="index672.html" class="button" style="width:28%">6.72</a>
+<a href="index702.html" class="button" style="width:28%">7.02</a>
+</td>
+</tr>
+</table></div>
+</body>
+</html>
