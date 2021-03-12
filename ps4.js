@@ -135,7 +135,7 @@ function setupRW() {
 			'<tr>'+
 			'<td align="center" colspan="2" >'+
 			'<a href="#" id="hen" class="button" onclick="toggle_payload(\'hen\'); return false" style="width:28%">HEN</a>&nbsp;'+
-			'<a href="#" id="henb" class="button" onclick="toggle_payload(\'henb\'); return false" style="width:28%">HEN 2.1.3 b</a>&nbsp;'+
+			'<a href="#" id="henb" class="button" onclick="toggle_payload(\'henb\'); return false" style="width:28%">HEN 2.1.3 BETA</a>&nbsp;'+
 			'<a href="#" id="spoof" class="button" onclick="toggle_payload(\'spoof\'); return false" style="width:28%">Spoof 9.99</a>&nbsp;'+
 			'</td>'+
 			'</tr>'+
