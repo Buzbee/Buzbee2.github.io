@@ -164,14 +164,14 @@ function setupRW() {
 			'</tr><tr><td><br/></td></tr>'+
 			'<tr>'+
 			'<td align="center" colspan="2"><a href="#" id="ftp" class="button" onclick="toggle_payload(\'ftp\'); return false" style="width:43%">FTP</a>&nbsp;'+
-			'<a href="#" id="backup" class="button" onclick="toggle_payload(\'backup\'); return false" style="width:43%">DB BackUp</a>&nbsp;</td>'+
+			'<a href="#" id="backup" class="button" onclick="toggle_payload(\'backup\'); return false" style="width:43%">DB Backup</a>&nbsp;</td>'+
 			'</tr><tr><td><br/></td></tr>'+
 			'<tr>'+
 			'<td align="center" colspan="2"><a href="#" id="todex" class="button" onclick="toggle_payload(\'todex\'); return false" style="width:43%">To-DEX</a>&nbsp;'+
 			'<a href="#" id="webrte" class="button" onclick="toggle_payload(\'webrte\'); return false" style="width:43%">WebRTE</a>&nbsp;</td>'+
 			'</tr><tr><td><br/></td></tr>'+
 			'<tr>'+
-			'<td align="center" colspan="2"><a href="#" id="linuxloader" class="button" onclick="toggle_payload(\'Linux 3GB\'); return false" style="width:43%">Linux Loader</a>&nbsp;'+
+			'<td align="center" colspan="2"><a href="#" id="linuxloader" class="button" onclick="toggle_payload(\'linuxloader\'); return false" style="width:43%">Linux 3GB</a>&nbsp;'+
 			'<a href="#" id="ps4debug" class="button" onclick="toggle_payload(\'ps4debug\'); return false" style="width:43%">PS4 Debug</a>&nbsp;</td>'+
 			'</tr>';
 	document.getElementById("div1").remove();
