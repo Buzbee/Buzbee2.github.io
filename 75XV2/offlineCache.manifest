@@ -16,7 +16,6 @@ payloads/preloader751.js
 payloads/mira750.js
 payloads/mira751.js
 payloads/mira755.js
-payloads/mira2b.js
 payloads/ftp.js
 payloads/app2usb.js
 payloads/disableupdates.js
@@ -33,5 +32,8 @@ payloads/enablebrowser.js
 payloads/historyblocker.js
 payloads/exitidu.js
 payloads/goldhen.js
+payloads/goldhen750.js
+payloads/goldhen751.js
+payloads/goldhen755.js
 payloads/ps4debug.js
 payloads/webrte.js
